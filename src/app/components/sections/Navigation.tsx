@@ -77,10 +77,10 @@ export default function Navigation() {
           </div>
 
           <div className="hidden md:flex space-x-4">
-            <Button variant="secondary" size="sm" className="backdrop-blur-sm">
+            <Button variant="secondary" size="sm" className="backdrop-blur-sm cursor-pointer">
               Login
             </Button>
-            <Button variant="primary" size="sm" className="shadow-lg shadow-blue-500/25">
+            <Button variant="primary" size="sm" className="shadow-lg shadow-blue-500/25 cursor-pointer">
               Start Free Trial
             </Button>
           </div>

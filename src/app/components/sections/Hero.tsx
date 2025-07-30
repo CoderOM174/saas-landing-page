@@ -49,7 +49,7 @@ export default function HeroSection({ onStartTrial }: HeroSectionProps) {
               <Button
                 size="lg"
                 onClick={onStartTrial}
-                className="group shadow-2xl shadow-blue-500/25 hover:shadow-blue-500/40 transition-all duration-300"
+                className="group shadow-2xl shadow-blue-500/25 hover:shadow-blue-500/40 transition-all duration-300 cursor-pointer"
               >
                 Start Free Trial
                 <ArrowRight className="ml-2 w-5 h-5 group-hover:translate-x-1 transition-transform duration-300" />
@@ -57,7 +57,7 @@ export default function HeroSection({ onStartTrial }: HeroSectionProps) {
               <Button
                 variant="secondary"
                 size="lg"
-                className="group backdrop-blur-sm border-white/20 hover:border-white/40"
+                className="group backdrop-blur-sm border-white/20 hover:border-white/40 cursor-pointer"
               >
                 <Play className="mr-2 w-5 h-5 group-hover:scale-110 transition-transform duration-300" />
                 Watch Demo
