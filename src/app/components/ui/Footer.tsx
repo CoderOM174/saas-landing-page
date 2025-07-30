@@ -54,7 +54,7 @@ export default function Footer() {
                   <li key={link}>
                     <Link
                       href="#"
-                      className="text-white/70 hover:text-white transition-colors duration-300 text-sm hover:translate-x-1 inline-block transform transition-transform"
+                      className="text-white/70 hover:text-white duration-300 text-sm hover:translate-x-1 inline-block transform transition-transform"
                     >
                       {link}
                     </Link>
