@@ -41,7 +41,7 @@ const testimonials = [
     role: "VP of Marketing",
     company: "InnovateCorp",
     content:
-      "The automation capabilities are game-changing. We've reduced manual work by 80% while improving campaign performance.",
+      "The automation capabilities are game-changing. We reduced manual work by 80% while improving campaign performance.",
     rating: 5,
     avatar: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=80&h=80&fit=crop&crop=face",
     companyLogo: "https://images.unsplash.com/photo-1611095973362-4c5cd1b4c4b3?w=120&h=40&fit=crop",
@@ -183,7 +183,7 @@ export default function TestimonialsSection() {
                       <div className="relative">
                         <Quote className="w-8 h-8 text-blue-400/30 mb-3 mx-auto" />
                         <p className="text-base text-white/90 leading-relaxed font-medium max-w-md mx-auto">
-                          "{testimonial.content}"
+                          &#34;{testimonial.content}&#34;
                         </p>
                       </div>
                     </div>

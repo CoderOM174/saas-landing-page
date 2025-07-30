@@ -1,9 +1,6 @@
 'use client';
 
 import React, { useState } from 'react';
-import Image from 'next/image';
-import Link from 'next/link';
-import { ChevronDown, ArrowRight, Play } from 'lucide-react';
 
 import Navigation from '@/app/components/sections/Navigation';
 import HeroSection from '@/app/components/sections/Hero';

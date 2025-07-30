@@ -133,7 +133,6 @@ export default function ContactSection() {
             <CheckCircle className="w-6 h-6 text-green-100" />
             <div>
               <div className="font-semibold">Message Sent Successfully!</div>
-              <div className="text-sm text-green-100">We'll get back to you within 24 hours.</div>
             </div>
             <button
               onClick={closeAlert}
@@ -198,7 +197,7 @@ export default function ContactSection() {
                   </div>
                   <div>
                     <div className="text-white font-semibold">Office</div>
-                    <div className="text-white/70">San Francisco, CA</div>
+                    <div className="text-white/70">San Francisco</div>
                   </div>
                 </div>
               </div>
